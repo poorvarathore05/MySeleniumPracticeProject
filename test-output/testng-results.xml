@@ -1,76 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40036" started-at="2020-03-14T02:53:41Z" finished-at="2020-03-14T02:54:21Z">
+  <suite name="Default suite" duration-ms="12245" started-at="2020-03-17T01:46:15Z" finished-at="2020-03-17T01:46:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40036" started-at="2020-03-14T02:53:41Z" finished-at="2020-03-14T02:54:21Z">
-      <class name="testClasses.TestDataProvider">
-        <test-method status="PASS" signature="LoginPage(java.lang.String, java.lang.String, boolean)[pri:0, instance:testClasses.TestDataProvider@32e6e9c3]" name="LoginPage" duration-ms="14739" started-at="2020-03-13T19:53:41Z" data-provider="loginProvider" finished-at="2020-03-13T19:53:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[poorvarathore@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rathore]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="12245" started-at="2020-03-17T01:46:15Z" finished-at="2020-03-17T01:46:27Z">
+      <class name="testClasses.PrintDataFromTable">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testClasses.PrintDataFromTable@6d8a00e3]" name="setup" is-config="true" duration-ms="6137" started-at="2020-03-16T18:46:09Z" finished-at="2020-03-16T18:46:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginPage -->
-        <test-method status="PASS" signature="LoginPage(java.lang.String, java.lang.String, boolean)[pri:0, instance:testClasses.TestDataProvider@32e6e9c3]" name="LoginPage" duration-ms="12694" started-at="2020-03-13T19:53:56Z" data-provider="loginProvider" finished-at="2020-03-13T19:54:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[poorvarathore02@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rathore]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tableData()[pri:0, instance:testClasses.PrintDataFromTable@6d8a00e3]" name="tableData" duration-ms="12235" started-at="2020-03-16T18:46:15Z" finished-at="2020-03-16T18:46:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginPage -->
-        <test-method status="PASS" signature="LoginPage(java.lang.String, java.lang.String, boolean)[pri:0, instance:testClasses.TestDataProvider@32e6e9c3]" name="LoginPage" duration-ms="12556" started-at="2020-03-13T19:54:08Z" data-provider="loginProvider" finished-at="2020-03-13T19:54:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[poorvarathore02@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[rathore]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- tableData -->
+        <test-method status="PASS" signature="close()[pri:0, instance:testClasses.PrintDataFromTable@6d8a00e3]" name="close" is-config="true" duration-ms="4678" started-at="2020-03-16T18:46:27Z" finished-at="2020-03-16T18:46:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginPage -->
-      </class> <!-- testClasses.TestDataProvider -->
+        </test-method> <!-- close -->
+      </class> <!-- testClasses.PrintDataFromTable -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
